@@ -1,0 +1,5 @@
+- hosts: all
+  become: true
+  user: ubuntu
+  roles:
+    - nginx
